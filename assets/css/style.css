@@ -106,10 +106,17 @@ h1 {
     display: none;
 }
 
+#hamb {
+    display: none;
+}
+
 @media (max-width: 500px) {
     .m {
         background-image: none;
         background-color: #39B0F0;
+    }
+    #hamb {
+        display: block;
     }
     h1 {
         display: block;
