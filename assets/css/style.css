@@ -101,3 +101,41 @@ p {
     width: 30%;
     margin: 20px;
 }
+
+h1 {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .m {
+        background-image: none;
+        background-color: #39B0F0;
+    }
+    h1 {
+        display: block;
+        font-size: 3rem;
+        margin: 20px;
+        width: 80%;
+    }
+    ul {
+        overflow: hidden;
+        flex-direction: column;
+        transition: .3s all ease;
+    }
+    /* ul:hover {
+        height: 100%;
+        display: flex;
+    } */
+    li {
+        display: none;
+        margin: 20px 0;
+    }
+}
+
+#hamb {
+    position: absolute;
+    z-index: 20;
+    color: white;
+    left: 47%;
+    top: 10px;
+}
