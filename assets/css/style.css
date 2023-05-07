@@ -114,6 +114,7 @@ h1 {
         position: absolute;
     margin: 0 auto;
     margin-top: 200px;
+    display: none;
 }
 
 @media (max-width: 500px) {
